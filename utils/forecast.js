@@ -13,7 +13,7 @@ const forecast = (lat,long, callback) => {
             callback(undefined,`Weather Description: ${data.weather_descriptions[0]} \n, 
                         WindSpeed : ${data.wind_speed} \n,
                         WindDegree: ${data.wind_degree} \n,
-                        WindDirection ${data.wind_dir} \n,
+                        WindDirection: ${data.wind_dir} \n,
                         Humidity: ${data.humidity} \n,
                         Cloudcover: ${data.cloudcover} \n,
                         Visibilty: ${data.visibility} \n,
